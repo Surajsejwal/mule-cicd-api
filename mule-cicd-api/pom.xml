@@ -10,12 +10,9 @@
 
 	<name>mule-cicd-api</name>
 
-
-
     <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-
 		<app.runtime>4.2.0</app.runtime>
 		<mule.maven.plugin.version>3.2.7</mule.maven.plugin.version>
 	</properties>
@@ -28,6 +25,15 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
+				<cloudHubDeployment>
+					<username>Dec123</username>
+					<password>Dec@123</password>
+					<enviroment>Sandbox</enviroment>
+					<workers>1</workers>
+					<workerType>Mirco</workerType>
+					<applicationName>Mule-CICD-API</applicationName>
+					<muleVersion>4.3.0</muleVersion>
+				</cloudHubDeployment>
 				</configuration>
 			</plugin>
 		</plugins>
