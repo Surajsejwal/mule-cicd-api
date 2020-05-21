@@ -28,7 +28,7 @@
 				<cloudHubDeployment>
 					<username>Dec123</username>
 					<password>Dec@123</password>
-					<enviroment>Sandbox</enviroment>
+					<environment>Sandbox</environment>
 					<workers>1</workers>
 					<workerType>Mirco</workerType>
 					<applicationName>Mule-CICD-API</applicationName>
